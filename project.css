@@ -11,6 +11,7 @@ body {
 .header {
     text-align: center;
     padding: 20px 20px 1px;
+    position: relative;
 }
 
 h1 { 
@@ -107,16 +108,19 @@ hr {
     border-top: 1px solid #e6e6e6;
     margin: 40px 0;
 }
+
 /* home button */
 .home-btn {
   position: absolute;
-  top: 50px;
-  left: 400px;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
 
   padding: 8px 16px;
   background-color: #333;
   color: white;
   text-decoration: none;
+  text-align: center;
   font-size: 16px;
   border-radius: 8px;
 
@@ -126,10 +130,5 @@ hr {
 .home-btn:hover {
   background-color: #555;
   transform: scale(1.05);
+  text-decoration: none;
 }
-
-
-
-
-
-
