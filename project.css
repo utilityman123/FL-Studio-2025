@@ -70,6 +70,11 @@ p {
     font-size: 16px;
 }
 
+/* link paragraph */
+.linkpara {
+    text-align: center;
+}
+
 /* Buttons (same as main site) */
 .btn {
     display: inline-block;
@@ -102,6 +107,7 @@ hr {
     border-top: 1px solid #e6e6e6;
     margin: 40px 0;
 }
+
 
 
 
