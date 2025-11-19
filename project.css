@@ -22,9 +22,6 @@ hr {
 .title {
     font-size: 48px;
     font-weight: 700;
-    background: linear-gradient(45deg, #00BCD4, #00ff00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .subtitle {
@@ -102,6 +99,7 @@ hr {
     border-top: 1px solid #e6e6e6;
     margin: 40px 0;
 }
+
 
 
 
