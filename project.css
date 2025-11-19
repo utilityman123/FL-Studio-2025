@@ -63,7 +63,6 @@ hr {
 /* Paragraphs */
 p {
     line-height: 1.75;
-    margin-bottom: 20px;
     font-size: 16px;
 }
 
@@ -99,6 +98,7 @@ hr {
     border-top: 1px solid #e6e6e6;
     margin: 40px 0;
 }
+
 
 
 
