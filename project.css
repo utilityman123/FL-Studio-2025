@@ -1,0 +1,87 @@
+/* Project Page CSS that matches your main site's style */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0d0d0d;
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+
+.header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #00bcd4, #4cff88);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #a8a8a8;
+}
+
+.project-window {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+}
+
+.project-heading {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #4cffd2;
+}
+
+ul li {
+    margin: 6px 0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.img-box {
+    background: #262626;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7c7c7c;
+    border: 1px solid #333;
+}
+
+.button {
+    display: inline-block;
+    background: linear-gradient(135deg, #00bcd4, #4cff88);
+    padding: 12px 24px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+    color: #000;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
