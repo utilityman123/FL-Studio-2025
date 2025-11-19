@@ -1,11 +1,13 @@
+/* Base */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     background: #e0e0e0;
     color: #333;
 }
 
+/* Header Section */
 .header {
     text-align: center;
     padding: 60px 20px;
@@ -14,7 +16,7 @@ body {
 .title {
     font-size: 48px;
     font-weight: 700;
-    background: linear-gradient(135deg, #00bcd4, #4cff88);
+    background: linear-gradient(45deg, #00BCD4, #00ff00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -22,28 +24,76 @@ body {
 .subtitle {
     font-size: 18px;
     margin-top: 10px;
-    color: #a8a8a8;
+    color: #777;
 }
 
+/* Main Content Container */
 .project-window {
-    max-width: 900px;
+    max-width: 750px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
+/* Project Card (matching main site) */
 .project-card {
     background: #bdbdbd;
+    border: 1px solid #e6e6e6;
     padding: 20px;
     border-radius: 12px;
     margin-top: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Heading */
 .project-heading {
     font-size: 28px;
     margin-bottom: 12px;
-    color: #4cffd2;
+    font-weight: 600;
+    color: #111;
 }
 
+/* Paragraphs */
+p {
+    line-height: 1.75;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
 
+/* Buttons (same as main site) */
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #0073ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
 
+.btn:hover {
+    background: #005bd1;
+}
+
+/* Links */
+a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    border-top: 1px solid #e6e6e6;
+    margin: 40px 0;
+}
