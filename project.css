@@ -1,12 +1,9 @@
-/* Project Page CSS that matches your main site's style */
-
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background: #0d0d0d;
-    color: #e6e6e6;
-    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+    background: #e0e0e0;
+    color: #333;
 }
 
 .header {
@@ -35,39 +32,17 @@ body {
 }
 
 .project-card {
-    background: #1a1a1a;
-    padding: 25px;
+    background: #bdbdbd;
+    padding: 20px;
     border-radius: 12px;
-    margin-bottom: 25px;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .project-heading {
     font-size: 28px;
     margin-bottom: 12px;
     color: #4cffd2;
-}
-
-ul li {
-    margin: 6px 0;
-}
-
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 15px;
-    margin-top: 15px;
-}
-
-.img-box {
-    background: #262626;
-    height: 120px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #7c7c7c;
-    border: 1px solid #333;
 }
 
 .button {
@@ -85,3 +60,4 @@ ul li {
 .button:hover {
     transform: scale(1.05);
 }
+
