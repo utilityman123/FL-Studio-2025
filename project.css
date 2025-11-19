@@ -107,22 +107,23 @@ hr {
     border-top: 1px solid #e6e6e6;
     margin: 40px 0;
 }
+/* home button */
+.home-btn {
+  position: fixed;        /* stays in the corner even when scrolling */
+  top: 15px;
+  left: 15px;
 
+  padding: 8px 16px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
 
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.home-btn:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
