@@ -45,19 +45,5 @@ body {
     color: #4cffd2;
 }
 
-.button {
-    display: inline-block;
-    background: linear-gradient(135deg, #00bcd4, #4cff88);
-    padding: 12px 24px;
-    margin-top: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.2s;
-    color: #000;
-}
 
-.button:hover {
-    transform: scale(1.05);
-}
 
