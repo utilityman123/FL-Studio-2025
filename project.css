@@ -111,10 +111,11 @@ hr {
 
 /* home button */
 .home-btn {
-  position: absolute;
-  top: 50px;
-  left: 400px;
+  position: absolute !important;
+  top: 50px !important;
+  left: 400px !important;
   z-index: 10;
+  margin: 0;
 
   padding: 8px 16px;
   background-color: #333;
@@ -132,4 +133,3 @@ hr {
   transform: scale(1.05);
   text-decoration: none;
 }
-
