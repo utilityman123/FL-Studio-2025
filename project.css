@@ -111,7 +111,7 @@ hr {
 .home-btn {
   position: absolute;
   top: 50px;
-  left: 70px;
+  left: 200px;
 
   padding: 8px 16px;
   background-color: #333;
@@ -127,5 +127,6 @@ hr {
   background-color: #555;
   transform: scale(1.05);
 }
+
 
 
