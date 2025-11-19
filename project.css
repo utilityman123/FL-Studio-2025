@@ -27,7 +27,7 @@ hr {
 .subtitle {
     font-size: 18px;
     margin-top: 10px;
-    color: #777;
+    color: #333;
 }
 
 /* Main Content Container */
@@ -99,6 +99,7 @@ hr {
     border-top: 1px solid #e6e6e6;
     margin: 40px 0;
 }
+
 
 
 
