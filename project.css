@@ -132,12 +132,13 @@ hr {
 }
 
 .download-box {
-    background-color: #d1d1d1;
-    padding: 20px;
+    background: #bdbdbd;
+    border: 1px solid #e6e6e6;
     border-radius: 12px;
-    margin: 20px auto;
-    text-align: center;
-    width: 80%;
+    margin-top: 10px;
+    padding: 0px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .download-btn {
@@ -156,6 +157,7 @@ hr {
     background-color: #0056b3;
     transform: scale(1.05);
 }
+
 
 
 
