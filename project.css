@@ -154,4 +154,13 @@ hr {
     transform: scale(0.9);
 }
 
+/* for mobile */
+@media (max-width: 600px) {
+  .home-btn{
+    top: 50px;
+    left: 30px;
+  }
+}
+
+
 
