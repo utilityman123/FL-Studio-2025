@@ -158,9 +158,10 @@ hr {
 @media (max-width: 600px) {
   .home-btn{
     top: 50px !important;
-    left: -10px !important;
+    left: 0px !important;
   }
 }
+
 
 
 
