@@ -104,7 +104,7 @@ hr {
 
 /* home button */
 .home-btn {
-  position: absolute !important;
+  position: fixed !important;
   top: 50px !important;
   left: 400px !important;
   z-index: 10;
@@ -157,10 +157,11 @@ hr {
 /* for mobile */
 @media (max-width: 600px) {
   .home-btn{
-    top: 50px;
-    left: -300px;
+    top: 50px !important;
+    left: -300px !important;
   }
 }
+
 
 
 
