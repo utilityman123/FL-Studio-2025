@@ -25,7 +25,7 @@ hr {
 
 .title {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .subtitle {
@@ -143,7 +143,7 @@ hr {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     border-radius: 10px;
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
@@ -160,4 +160,5 @@ hr {
     left: 5px !important;
   }
 }
+
 
