@@ -160,10 +160,10 @@ hr {
   .home-btn{
     left: 5px !important;
   .project-window {
-      margin: 0 10px auto;
+      margin: 0 10px auto !important;
   }
   .hr {
-      margin: 0 10px auto;
+      margin: 0 10px auto !important;
   }
 }
 
