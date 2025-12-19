@@ -161,12 +161,13 @@ hr {
     left: 5px !important;
   }
   .project-card {
-      margin: 0 10px auto !important;
+      margin: 10px 10px auto !important;
   }
   .hr {
-      margin: 0 10px auto !important;
+      margin: 40px 10px auto !important;
   }
 }
+
 
 
 
