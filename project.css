@@ -159,13 +159,14 @@ hr {
 @media (max-width: 600px) {
   .home-btn{
     left: 5px !important;
-  .project-window {
+  .project-card {
       margin: 0 10px auto !important;
   }
   .hr {
       margin: 0 10px auto !important;
   }
 }
+
 
 
 
